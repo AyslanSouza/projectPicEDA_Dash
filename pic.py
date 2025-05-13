@@ -6,7 +6,7 @@ import plotly.express as px
 st.set_page_config(layout="wide")
 
 # Carregar os dados
-arquivo = 'C:\\Users\\Citel\\Desktop\\Ayslan\\PIC_Dashboard\\dados_redcap_estruturados.xlsx'
+arquivo = "dados_redcap_estruturados.xlsx"
 planilhas = pd.read_excel(arquivo, sheet_name=None)
 
 df_pacientes = planilhas['Pacientes']
